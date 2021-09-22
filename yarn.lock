@@ -2750,7 +2750,14 @@ aws-sign2@~0.7.0:
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
   integrity sha1-tG6JCTSpWR8tL2+G1+ap8bP+dqg=
 
-aws4@^1.8.0, aws4@^1.9.1:
+aws4-react-native@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/aws4-react-native/-/aws4-react-native-0.0.2.tgz#e347f4ae355fdb6e8e0d5f903010543f6003baea"
+  integrity sha512-kVsBuqTyluHmsUDnKFRta95pvhp0UbD0531vd5s9dgkw7DI+C7nW9iCuMKIzZGAbMUwmHH8F24SN2xZY7yqYNw==
+  dependencies:
+    querystring-browser "^1.0.4"
+
+aws4@^1.8.0:
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
@@ -9113,6 +9120,11 @@ query-string@^6.8.2:
     decode-uri-component "^0.2.0"
     split-on-first "^1.0.0"
     strict-uri-encode "^2.0.0"
+
+querystring-browser@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/querystring-browser/-/querystring-browser-1.0.4.tgz#f2e35881840a819bc7b1bf597faf0979e6622dc6"
+  integrity sha1-8uNYgYQKgZvHsb9Zf68JeeZiLcY=
 
 querystring@0.2.0, querystring@^0.2.0:
   version "0.2.0"

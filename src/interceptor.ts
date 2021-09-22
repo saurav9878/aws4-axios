@@ -1,5 +1,5 @@
 import { AxiosRequestConfig } from "axios";
-import { sign } from "aws4";
+import { sign } from "aws4-react-native";
 import buildUrl from "axios/lib/helpers/buildURL";
 import combineURLs from "axios/lib/helpers/combineURLs";
 import isAbsoluteURL from "axios/lib/helpers/isAbsoluteURL";
